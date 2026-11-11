@@ -1,0 +1,9 @@
+[submodule "plugins/daytape"]
+	path = plugins/daytape
+	url = https://github.com/austrasien/omarchy-daytape.git
+[submodule "plugins/daybar"]
+	path = plugins/daybar
+	url = https://github.com/austrasien/omarchy-daybar.git
+[submodule "plugins/dayline"]
+	path = plugins/dayline
+	url = https://github.com/austrasien/omarchy-dayline.git

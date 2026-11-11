@@ -1,0 +1,42 @@
+# Only the README, the license, the install script and the submodule links
+# belong here. Everything else stays on the machine it was made on.
+
+# Local settings and state (they hold calendars, monitors, paths)
+*.json
+!.github/**/*.json
+.env
+.env.*
+*.local
+*.state
+
+# Backups, logs, scratch
+*.bak
+*.bak.*
+*.bak-*
+*.orig
+*.rej
+*.log
+*.tmp
+*.swp
+*~
+.#*
+scratch/
+tmp/
+
+# Captures, which show whatever was on screen
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.webm
+
+# Tools
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+.DS_Store
+.claude/
